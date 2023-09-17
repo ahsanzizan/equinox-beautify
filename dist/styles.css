@@ -641,8 +641,8 @@ video {
   height: 1.25rem;
 }
 
-.h-\[100px\] {
-  height: 100px;
+.h-\[86px\] {
+  height: 86px;
 }
 
 .h-full {
@@ -651,10 +651,6 @@ video {
 
 .h-screen {
   height: 100vh;
-}
-
-.h-\[86px\] {
-  height: 86px;
 }
 
 .w-1\/3 {
@@ -921,7 +917,6 @@ h6 {
   width: 200%;
   align-items: center;
   justify-content: space-between;
-  gap: 6rem;
   animation: scroll 25s linear infinite;
 }
 
@@ -931,6 +926,8 @@ h6 {
   width: 100%;
   align-items: center;
   justify-content: center;
+  padding-left: 3rem;
+  padding-right: 3rem;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
