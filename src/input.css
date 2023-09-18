@@ -45,12 +45,12 @@ h6 {
 }
 
 .brands {
-  @apply flex h-full w-[200%] items-center justify-between;
+  @apply flex h-full w-[500%] lg:w-[200%] items-center justify-between;
   animation: scroll 25s linear infinite;
 }
 
 .brand {
-  @apply flex h-full w-full items-center justify-center text-white px-12;
+  @apply flex h-full w-full items-center justify-center text-white px-10;
 }
 
 @keyframes scroll {

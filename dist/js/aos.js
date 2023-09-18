@@ -4,7 +4,7 @@ const observer = new IntersectionObserver((entries) => {
       entry.target.classList.add("animate", "animated");
       const numbers = document.querySelectorAll(".animate-number");
       numbers.forEach((number) => {
-        window.animateValue(number, 0, number.dataset.number, 2000);
+        window.animateValue(number, 0, number.dataset.number, 1500);
       });
     }
   });
