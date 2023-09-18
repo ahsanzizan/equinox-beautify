@@ -4,6 +4,20 @@ const navUl = document.querySelector("nav ul");
 const sections = document.querySelectorAll("section[id]");
 const logo = document.querySelector("#logo");
 
+function disableScroll() {
+  // Get the current page scroll position
+  scrollTop = document.documentElement.scrollTop;
+  scrollLeft = document.documentElement.scrollLeft,
+
+  window.onscroll = () => {
+    window.scrollTo(scrollLeft, scrollTop);
+  };
+}
+
+function enableScroll() {
+  window.onscroll = function () {};
+}
+
 function linkAction() {
   logo.classList.remove("text-white");
   navUl.classList.remove("nav-active");
@@ -41,4 +55,9 @@ hamburger.addEventListener("click", () => {
   logo.classList.toggle("text-white");
   hamburger.classList.toggle("hamburger-active");
   navUl.classList.toggle("nav-active");
+  if (navUl.classList.contains("nav-active")) {
+    disableScroll();
+  } else {
+    enableScroll();
+  }
 });
