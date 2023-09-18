@@ -55,9 +55,4 @@ hamburger.addEventListener("click", () => {
   logo.classList.toggle("text-white");
   hamburger.classList.toggle("hamburger-active");
   navUl.classList.toggle("nav-active");
-  if (navUl.classList.contains("nav-active")) {
-    disableScroll();
-  } else {
-    enableScroll();
-  }
 });

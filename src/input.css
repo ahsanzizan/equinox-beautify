@@ -50,7 +50,7 @@ h6 {
 }
 
 .brand {
-  @apply flex h-full w-full items-center justify-center text-white px-10;
+  @apply flex h-full w-full items-center justify-center text-white px-4;
 }
 
 @keyframes scroll {
