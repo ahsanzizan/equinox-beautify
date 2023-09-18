@@ -546,10 +546,6 @@ video {
   position: relative;
 }
 
-.sticky {
-  position: sticky;
-}
-
 .-left-\[200\%\] {
   left: -200%;
 }
@@ -673,10 +669,6 @@ video {
   width: 100vw;
 }
 
-.w-\[inherit\] {
-  width: inherit;
-}
-
 .max-w-\[1440px\] {
   max-width: 1440px;
 }
@@ -727,10 +719,6 @@ video {
 .divide-primary > :not([hidden]) ~ :not([hidden]) {
   --tw-divide-opacity: 1;
   border-color: rgb(31 31 31 / var(--tw-divide-opacity));
-}
-
-.overflow-hidden {
-  overflow: hidden;
 }
 
 .overflow-x-hidden {
@@ -1024,6 +1012,13 @@ h6 {
   padding-right: 1rem;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+@media (min-width: 1024px) {
+  .brand {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
 }
 
 @keyframes scroll {
