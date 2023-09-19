@@ -1,12 +1,10 @@
 <!doctype html>
-<html lang="en" class="scroll-smooth">
+<html lang="en" class="scroll-smooth selection:bg-primary selection:text-white">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Beautify by Equinox</title>
+    <link rel="shortcut icon" href="dist/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="/dist/styles.css" />
     <script defer src="/dist/js/aos.js"></script>
   </head>
@@ -60,37 +58,37 @@
       </a>
 
       <ul
-        class="absolute -left-[200%] top-0 m-0 h-screen w-screen bg-primary py-[86px] transition-all duration-500 lg:static lg:flex lg:h-auto lg:w-auto lg:items-center lg:gap-[54px] lg:bg-transparent lg:py-0"
+        class="absolute -left-[200%] top-0 m-0 h-screen w-screen bg-primary px-5 py-[86px] transition-all duration-500 md:px-[62px] lg:static lg:flex lg:h-auto lg:w-auto lg:items-center lg:gap-[54px] lg:bg-transparent lg:px-0 lg:py-0"
       >
-        <li class="mx-5 my-8 lg:mx-0 lg:my-0">
+        <li class="my-8 lg:mx-0 lg:my-0">
           <a
             href="#beranda"
             class="font-medium text-white transition duration-500 lg:text-neutral lg:hover:text-primary"
             >Beranda</a
           >
         </li>
-        <li class="mx-5 my-8 lg:mx-0 lg:my-0">
+        <li class="my-8 lg:mx-0 lg:my-0">
           <a
             href="#tentang-kami"
             class="font-medium text-white transition duration-500 lg:text-neutral lg:hover:text-primary"
             >Tentang Kami</a
           >
         </li>
-        <li class="mx-5 my-8 lg:mx-0 lg:my-0">
+        <li class="my-8 lg:mx-0 lg:my-0">
           <a
             href="#layanan"
             class="font-medium text-white transition duration-500 lg:text-neutral lg:hover:text-primary"
             >Layanan</a
           >
         </li>
-        <li class="mx-5 my-8 lg:mx-0 lg:my-0">
+        <li class="my-8 lg:mx-0 lg:my-0">
           <a
-            href="#layanan"
+            href="#katalog"
             class="font-medium text-white transition duration-500 lg:text-neutral lg:hover:text-primary"
-            >Manufaktur</a
+            >Katalog</a
           >
         </li>
-        <li class="mx-5 my-8 lg:mx-0 lg:my-0">
+        <li class="my-8 lg:mx-0 lg:my-0">
           <a
             href="#ulasan"
             class="font-medium text-white transition duration-500 lg:text-neutral lg:hover:text-primary"
@@ -111,26 +109,31 @@
 
     <section
       id="beranda"
-      class="slide mx-auto w-full px-5 pb-[54px] pt-[124px] sm:pb-[82px] sm:pt-[152px] md:px-[62px] lg:px-[152px]"
+      class="aos slide mx-auto w-full px-5 pb-[54px] pt-[124px] sm:pb-[82px] sm:pt-[152px] md:px-[62px] lg:px-[152px]"
     >
       <div
-        class="flex w-full flex-col items-center justify-between md:flex-row"
+        class="flex w-full flex-col items-center justify-between gap-[60px] md:flex-row"
       >
         <div class="mb-9 lg:mb-0">
           <h1
-            class="mb-4 text-[28px] leading-[36px] sm:text-4xl sm:leading-[68px] md:mb-8 md:text-7xl md:leading-[102px]"
+            class="mb-4 text-[28px] leading-[36px] md:text-5xl md:leading-[68px] lg:mb-8 lg:text-7xl lg:leading-[102px]"
           >
-            Mengubah <br class="hidden sm:block" />
-            Impian Menjadi <br class="hidden sm:block" />
-            Kenyataan
+            <span class="animate slide delay-2">Mewujudkan </span
+            ><span class="animate slide delay-3"> Produk </span>
+            <span class="animate slide delay-4">Impian </span
+            ><span class="animate slide delay-5">Brand </span
+            ><span class="animate slide delay-6">Anda</span>
           </h1>
-          <p class="mb-[42px] text-sm leading-6 text-neutral md:text-base">
-            Kami Hadir dengan Keanggunan yang Mewujudkan Impian
-            <br class="hidden md:block" />Brand Anda menjadi Kenyataan
+          <p
+            class="animate slide delay-7 mb-[42px] text-sm leading-6 text-neutral md:text-base"
+          >
+            Kami menghadirkan kemasan untuk produk impian
+            <br class="hidden md:block" />
+            Anda yang elegan dan ramah lingkungan
           </p>
           <a
             href="#"
-            class="group relative inline-flex gap-[10px] border-2 border-primary px-[18px] py-[10px] text-primary transition-all duration-500 before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-left before:scale-x-0 before:bg-primary before:transition-all before:duration-500 before:content-[''] hover:text-white hover:before:scale-x-100"
+            class="animate fade delay-8 group relative inline-flex gap-[10px] border-2 border-primary px-[18px] py-[10px] text-primary transition-all duration-500 before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-left before:scale-x-0 before:bg-primary before:transition-all before:duration-500 before:content-[''] hover:text-white hover:before:scale-x-100"
             >Mulai Konsultasi
             <i>
               <svg
@@ -162,13 +165,13 @@
         <img
           src="dist/img/landing.png"
           alt="Landing Page Image"
-          class="h-full w-full object-cover sm:h-[290.58px] sm:w-[311.06px] md:h-[496px] md:w-[530.94px]"
+          class="h-full w-full object-cover md:w-[45%] lg:w-1/2"
         />
       </div>
     </section>
 
     <!-- Infinite scrolling brands -->
-    <div class="absolute left-0 h-[86px] w-screen bg-primary overflow-x-hidden">
+    <div class="absolute left-0 h-[86px] w-screen overflow-x-hidden bg-primary">
       <div class="brands">
         <div class="brand">
           <svg
@@ -772,7 +775,7 @@
 
     <section
       id="tentang-kami"
-      class="slide mx-auto w-full px-5 pb-[64px] pt-[124px] sm:pb-[82px] sm:pt-[184px] md:px-[62px] lg:px-[152px]"
+      class="aos slide mx-auto w-full px-5 pb-[64px] pt-[124px] sm:pb-[82px] sm:pt-[184px] md:px-[62px] lg:px-[152px]"
     >
       <div class="block">
         <div class="mb-12">
@@ -793,8 +796,8 @@
               Tahun Pengalaman
             </h3>
             <p class="text-sm text-neutral sm:text-base">
-              Kami telah memberikan solusi kemasan mewah selama lebih dari 15
-              tahun.
+              Kami telah memberikan solusi kemasan eksklusif selama lebih dari
+              10 tahun
             </p>
           </div>
           <div class="mb-8 w-full lg:mb-0 lg:w-[30%]">
@@ -805,11 +808,11 @@
               60+
             </h2>
             <h3 class="mb-2 text-xl lg:mb-[14px] lg:text-[28px]">
-              Merek Sukses
+              Brand Sukses
             </h3>
             <p class="text-sm text-neutral sm:text-base">
-              Kami menciptakan kemasan kosmetik yang memukau dan mendefinisikan
-              merek.
+              Kami menciptakan kemasan yang ramah lingkungan dan mendefinisikan
+              merek
             </p>
           </div>
           <div class="mb-8 w-full lg:mb-0 lg:w-[30%]">
@@ -822,7 +825,7 @@
             <h3 class="mb-2 text-xl lg:mb-[14px] lg:text-[28px]">Klien Puas</h3>
             <p class="text-sm text-neutral sm:text-base">
               Kami telah berhasil membuat lebih dari 10,000 klien puas dengan
-              jasa kami.
+              jasa kami
             </p>
           </div>
         </div>
@@ -831,7 +834,7 @@
 
     <section
       id="layanan"
-      class="slide mx-auto w-full px-5 py-[54px] sm:pb-[82px] sm:pt-[184px] md:px-[62px] lg:px-[152px]"
+      class="aos slide mx-auto w-full px-5 py-[54px] sm:pb-[82px] sm:pt-[184px] md:px-[62px] lg:px-[152px]"
     >
       <div class="relative flex flex-col justify-between lg:flex-row">
         <div
@@ -856,7 +859,8 @@
                 Desain Kemasan
               </h3>
               <p class="text-sm leading-7 text-neutral sm:text-base lg:text-xl">
-                Desain Kemasan Kustom dan Unik untuk Merek Kosmetik
+                Pilihan desain Kemasan yang kustom sesuai referensi klien
+                melalui proses diskusi
               </p>
             </div>
           </div>
@@ -873,7 +877,7 @@
                 Pemilihan Bahan Kemasan
               </h3>
               <p class="text-sm leading-7 text-neutral sm:text-base lg:text-xl">
-                Kemasan berkualitas tinggi yang sesuai dengan produk
+                Kemasan ramah lingkungan dengan bahan dasar biodegradable
               </p>
             </div>
           </div>
@@ -891,11 +895,134 @@
               </h3>
               <p class="text-sm leading-7 text-neutral sm:text-base lg:text-xl">
                 Memenuhi kebutuhan merek kosmetik yang beroperasi di seluruh
-                Indonesia
+                wilayah Indonesia
               </p>
             </div>
           </div>
         </div>
+      </div>
+    </section>
+
+    <section
+      id="katalog"
+      class="aos slide mx-auto w-full px-5 pb-[64px] pt-[124px] sm:pb-[82px] sm:pt-[184px] md:px-[62px] lg:px-[152px]"
+    >
+      <div class="mb-[52px] w-full">
+        <h2 class="mb-[10px] text-2xl sm:text-[32px] lg:text-5xl">
+          Contoh Hasil Produksi Kemasan Produk
+        </h2>
+        <p class="text-sm sm:text-base">Katalog</p>
+      </div>
+      <div class="w-full">
+        <div
+          class="mb-[54px] flex h-[320px] flex-col justify-between sm:h-[487px] sm:flex-row"
+          id="katalog-1"
+        >
+          <div class="relative h-full w-full text-center text-white md:w-[48%] lg:w-[40%]">
+            <img
+              src="/dist/img/catalogues/skin-care/0.jpg"
+              alt="Skin Care"
+              class="absolute left-0 top-0 h-full w-full object-cover"
+              data-delete="true"
+            />
+            <img
+              src="/dist/img/catalogues/skin-care/1.jpg"
+              alt="Skin Care"
+              class="animate-catalogue fade delay-2 absolute left-0 top-0 h-full w-full object-cover"
+              data-delete="true"
+            />
+            <img
+              src="/dist/img/catalogues/skin-care/2.jpg"
+              alt="Skin Care"
+              class="animate-catalogue fade delay-3 absolute left-0 top-0 h-full w-full object-cover"
+              data-delete="true"
+            />
+            <img
+              src="/dist/img/catalogues/skin-care/3.jpg"
+              alt="Skin Care"
+              class="animate-catalogue fade delay-4 absolute left-0 top-0 h-full w-full object-cover"
+              data-delete="true"
+            />
+            <img
+              src="/dist/img/catalogues/skin-care/4.jpg"
+              alt="Skin Care"
+              class="animate-catalogue fade delay-5 absolute left-0 top-0 h-full w-full object-cover"
+            />
+          </div>
+          <div
+            class="relative h-full w-full text-center text-white md:w-[48%] lg:w-[55%]"
+          >
+            <img
+              src="/dist/img/catalogues/body-care/0.jpg"
+              alt="Body Care"
+              class="absolute left-0 top-0 h-full w-full object-cover"
+              data-delete="true"
+            />
+            <img
+              src="/dist/img/catalogues/body-care/1.jpg"
+              alt="Body Care"
+              class="animate-catalogue fade delay-6 absolute left-0 top-0 h-full w-full object-cover"
+              data-delete="true"
+            />
+            <img
+              src="/dist/img/catalogues/body-care/2.jpg"
+              alt="Body Care"
+              class="animate-catalogue fade delay-7 absolute left-0 top-0 h-full w-full object-cover"
+              data-delete="true"
+            />
+            <img
+              src="/dist/img/catalogues/body-care/3.jpg"
+              alt="Body Care"
+              class="animate-catalogue fade delay-8 absolute left-0 top-0 h-full w-full object-cover"
+            />
+          </div>
+        </div>
+        <div
+          class="slide mb-[54px] flex h-[320px] flex-col justify-between sm:h-[487px] sm:flex-row"
+          id="katalog-2"
+        >
+          <div
+            class="relative h-full w-full text-center text-white md:w-[48%] lg:w-[55%]"
+          >
+            <img
+              src="/dist/img/catalogues/face-care/0.jpg"
+              alt="Face Care"
+              class="absolute left-0 top-0 h-full w-full object-cover"
+              data-delete="true"
+            />
+            <img
+              src="/dist/img/catalogues/face-care/1.jpg"
+              alt="Face Care"
+              class="animate-catalogue fade delay-9 absolute left-0 top-0 h-full w-full object-cover"
+              data-delete="true"
+            />
+            <img
+              src="/dist/img/catalogues/face-care/2.jpg"
+              alt="Face Care"
+              class="animate-catalogue fade delay-10 absolute left-0 top-0 h-full w-full object-cover"
+            />
+          </div>
+          <div class="relative h-full w-full text-center text-white md:w-[48%] lg:w-[40%]">
+            <img
+              src="/dist/img/catalogues/hair-care/0.jpg"
+              alt="Hair Care"
+              class="absolute left-0 top-0 h-full w-full object-cover"
+              data-delete="true"
+            />
+            <img
+              src="/dist/img/catalogues/hair-care/2.jpg"
+              alt="Hair Care"
+              class="animate-catalogue fade delay-11 absolute left-0 top-0 h-full w-full object-cover"
+              data-delete="true"
+            />
+            <img
+              src="/dist/img/catalogues/hair-care/3.jpg"
+              alt="Hair Care"
+              class="animate-catalogue fade delay-12 absolute left-0 top-0 h-full w-full object-cover"
+            />
+          </div>
+        </div>
+        <div class="flex justify-between"></div>
       </div>
     </section>
 
