@@ -546,6 +546,10 @@ video {
   position: relative;
 }
 
+.sticky {
+  position: sticky;
+}
+
 .-left-\[200\%\] {
   left: -200%;
 }
@@ -1008,8 +1012,8 @@ h6 {
   width: 100%;
   align-items: center;
   justify-content: center;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
@@ -1515,6 +1519,11 @@ h6 {
   .md\:px-\[62px\] {
     padding-left: 62px;
     padding-right: 62px;
+  }
+
+  .md\:px-\[152px\] {
+    padding-left: 152px;
+    padding-right: 152px;
   }
 
   .md\:text-7xl {

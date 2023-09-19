@@ -4,6 +4,8 @@ const navUl = document.querySelector("nav ul");
 const sections = document.querySelectorAll("section[id]");
 const logo = document.querySelector("#logo");
 
+console.log(window.screenX)
+
 function disableScroll() {
   // Get the current page scroll position
   scrollTop = document.documentElement.scrollTop;

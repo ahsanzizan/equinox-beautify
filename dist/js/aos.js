@@ -6,7 +6,7 @@ const observer = new IntersectionObserver((entries) => {
       if (entry.target.getAttribute("id") == "tentang-kami") {
         const numbers = document.querySelectorAll(".animate-number");
         numbers.forEach((number) => {
-          window.animateValue(number, 0, number.dataset.number, 1500);
+          window.animateValue(number, 0, number.dataset.number, 3000);
         });
       }
     }
