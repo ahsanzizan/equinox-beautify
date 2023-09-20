@@ -4,9 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Beautify by Equinox</title>
-    <link rel="shortcut icon" href="dist/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="dist/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="/dist/styles.css" />
     <script defer src="/dist/js/aos.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <nav
@@ -949,6 +954,11 @@
               alt="Skin Care"
               class="animate-catalogue fade delay-5 absolute left-0 top-0 h-full w-full object-cover"
             />
+            <span class="absolute left-0 top-0 w-full h-full" style="background: linear-gradient(to top, black 0%, transparent 100%);"></span>
+            <div class="absolute left-10 bottom-9 text-left w-auto">
+              <h2 class="mb-[14px] text-[32px]">Skin Care</h2>
+              <p>Kemasan produk untuk perawatan kulit</p>
+            </div>
           </div>
           <div
             class="relative h-full w-full text-center text-white md:w-[48%] lg:w-[55%]"
@@ -976,6 +986,11 @@
               alt="Body Care"
               class="animate-catalogue fade delay-8 absolute left-0 top-0 h-full w-full object-cover"
             />
+            <span class="absolute left-0 top-0 w-full h-full" style="background: linear-gradient(to top, black 0%, transparent 100%);"></span>
+            <div class="absolute left-10 bottom-9 text-left w-auto">
+              <h2 class="mb-[14px] text-2xl lg:text-[32px]">Body Care</h2>
+              <p>Kemasan produk untuk perawatan tubuh</p>
+            </div>
           </div>
         </div>
         <div
@@ -1001,6 +1016,11 @@
               alt="Face Care"
               class="animate-catalogue fade delay-10 absolute left-0 top-0 h-full w-full object-cover"
             />
+            <span class="absolute left-0 top-0 w-full h-full" style="background: linear-gradient(to top, black 0%, transparent 100%);"></span>
+            <div class="absolute left-10 bottom-9 text-left w-auto">
+              <h2 class="mb-[14px] text-2xl lg:text-[32px]">Face Care</h2>
+              <p>Kemasan produk untuk perawatan wajah</p>
+            </div>
           </div>
           <div
             class="relative h-full w-full text-center text-white md:w-[48%] lg:w-[40%]"
@@ -1022,22 +1042,113 @@
               alt="Hair Care"
               class="animate-catalogue fade delay-12 absolute left-0 top-0 h-full w-full object-cover"
             />
+            <span class="absolute left-0 top-0 w-full h-full" style="background: linear-gradient(to top, black 0%, transparent 100%);"></span>
+            <div class="absolute left-10 bottom-9 text-left w-auto">
+              <h2 class="mb-[14px] text-2xl lg:text-[32px]">Hair Care</h2>
+              <p>Kemasan produk untuk perawatan rambut</p>
+            </div>
           </div>
         </div>
         <div class="flex justify-between"></div>
       </div>
     </section>
+    
+    <!-- <section
+    id="ulasan"
+    class="aos slide mx-auto w-full max-w-[1440px] px-5 pb-[64px] pt-[124px] sm:pb-[82px] sm:pt-[184px] md:px-[62px] lg:px-[152px]"
+    >
+      <div class="mb-[52px] w-full">
+        <h2 class="mb-[10px] text-2xl sm:text-[32px] lg:text-5xl">
+          Mengapa Harus Memilih Beautify
+        </h2>
+        <p class="text-sm sm:text-base">Ulasan</p>
+      </div>
+      <div class="flex items-center justify-between gap-5">
+        <button id="prev-slide" class="rotate-180">
+          <i><svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              class="fill-none stroke-current text-black"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M14.43 5.93005L20.5 12.0001L14.43 18.0701"
+                stroke-width="1.5"
+                stroke-miterlimit="10"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </i>
+        </button>
+        <div class="w-full overflow-x-hidden">
+          <div class="flex w-[300%] transition-all duration-500 overflow-x-hidden" id="slider">
+            <div class="w-full">
+              <p class="mb-7">
+                "Kami sangat puas dengan kualitas produk yang kami terima dari
+                perusahaan manufaktur ini. Mereka selalu memenuhi standar
+                kualitas tertinggi."
+              </p>
+              <h3 class="text-[28px]">
+                Ahmad Zamran - Product Manager Montserrat
+              </h3>
+            </div>
+            <div class="w-full">
+              <p class="mb-7">
+                "Kami telah bermitra dengan perusahaan manufaktur ini selama
+                bertahun-tahun, dan mereka tidak pernah mengecewakan. Kualitas
+                produk mereka selalu luar biasa, dan layanan pelanggan mereka
+                sangat responsif."
+              </p>
+              <h3 class="text-[28px]">Fabrizion Freda - CEO Quantum</h3>
+            </div>
+            <div class="w-full">
+              <p class="mb-7">
+                "Perusahaan manufaktur ini adalah mitra yang sangat handal.
+                Mereka selalu menghadirkan solusi yang inovatif dan membantu
+                kami meningkatkan efisiensi produksi kami."
+              </p>
+              <h3 class="text-[28px]">Immanuel Danang - CFO Bonnita</h3>
+            </div>
+          </div>
+        </div>
+        <button id="next-slide">
+          <i
+            ><svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              class="fill-none stroke-current text-black"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M14.43 5.93005L20.5 12.0001L14.43 18.0701"
+                stroke-width="1.5"
+                stroke-miterlimit="10"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </i>
+        </button>
+      </div>
+    </section> -->
 
     <footer
       id="footer"
-      class="overflow-x-hidden mt-[82px] w-screen bg-primary px-5 md:px-[62px] lg:px-[154px] pb-[36px] pt-[68px] text-white selection:bg-white selection:text-primary sm:mt-[184px]"
+      class="mt-[82px] w-screen overflow-x-hidden bg-primary px-5 pb-[36px] pt-[68px] text-white selection:bg-white selection:text-primary sm:mt-[184px] md:px-[62px] lg:px-[154px]"
     >
-      <div class="flex justify-between flex-col lg:flex-row pb-9 border-b border-b-white mb-9">
-        <div class="w-full mb-[98px] lg:mb-0 lg:w-[35%]">
-          <h1 class="mb-7 lg:mb-[52px] text-2xl sm:text-[32px] lg:text-5xl">
+      <div
+        class="mb-9 flex flex-col justify-between border-b border-b-white pb-9 lg:flex-row"
+      >
+        <div class="mb-[98px] w-full lg:mb-0 lg:w-[35%]">
+          <h1 class="mb-7 text-2xl sm:text-[32px] lg:mb-[52px] lg:text-5xl">
             Hubungi kami untuk kerja sama
           </h1>
-          <a href="#" class="items-center gap-2 hover:gap-4 transition-all duration-500 inline-flex text-neutral hover:text-white"
+          <a
+            href="#"
+            class="group inline-flex items-center gap-3 text-neutral transition-all duration-500 hover:text-white"
             >contact@beautify.com
             <i
               ><svg
@@ -1055,6 +1166,7 @@
                   stroke-linejoin="round"
                 />
                 <path
+                  class="origin-right scale-x-0 stroke-white transition-all duration-500 group-hover:scale-x-100"
                   d="M3.5 12H20.33"
                   stroke-width="1.5"
                   stroke-miterlimit="10"
@@ -1064,62 +1176,108 @@
               </svg> </i
           ></a>
         </div>
-        <div class="md:justify-between flex-col md:flex-row flex w-full lg:w-[60%] gap-[94px] lg:gap-[94px]">
+        <div
+          class="flex w-full flex-col gap-[94px] md:flex-row md:justify-between lg:w-[60%] lg:gap-[94px]"
+        >
           <div class="w-full md:w-1/3">
             <h4 class="mb-[34px] text-xl md:text-2xl">Alamat Kami</h4>
             <p class="text-neutral">
-              Jalan Raya Salak Nomor 456, Kawasan Industri Maju, Kota
-              Surabaya, Indonesia 67890.
+              Jalan Raya Salak Nomor 456, Kawasan Industri Maju, Kota Surabaya,
+              Indonesia 67890.
             </p>
           </div>
           <div class="w-full md:w-1/3">
             <h4 class="mb-[34px] text-xl md:text-2xl">Useful Links</h4>
             <ul class="flex flex-col gap-[22px]">
-              <li><a href="#" class="text-neutral hover:text-white transition duration-500">Beautify</a></li>
-              <li><a href="#" class="text-neutral hover:text-white transition duration-500">Developer</a></li>
-              <li><a href="#" class="text-neutral hover:text-white transition duration-500">Konsultasi</a></li>
+              <li>
+                <a
+                  href="#"
+                  class="text-neutral transition duration-500 hover:text-white"
+                  >Beautify</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-neutral transition duration-500 hover:text-white"
+                  >Developer</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-neutral transition duration-500 hover:text-white"
+                  >Konsultasi</a
+                >
+              </li>
             </ul>
           </div>
           <div class="w-full md:w-1/3">
             <h4 class="mb-[34px] text-xl md:text-2xl">Ikuti Kami</h4>
             <ul class="flex flex-col gap-[22px]">
-              <li><a href="https://instagram.com/" class="text-neutral hover:text-white transition duration-500 uppercase">Instagram</a></li>
-              <li><a href="https://facebook.com" class="text-neutral hover:text-white transition duration-500 uppercase">Facebook</a></li>
-              <li><a href="https://tiktok.com" class="text-neutral hover:text-white transition duration-500 uppercase">TikTok</a></li>
+              <li>
+                <a
+                  href="https://instagram.com/"
+                  class="uppercase text-neutral transition duration-500 hover:text-white"
+                  >Instagram</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://facebook.com"
+                  class="uppercase text-neutral transition duration-500 hover:text-white"
+                  >Facebook</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://tiktok.com"
+                  class="uppercase text-neutral transition duration-500 hover:text-white"
+                  >TikTok</a
+                >
+              </li>
             </ul>
           </div>
         </div>
       </div>
-      <div class="flex justify-between gap-[34px] flex-col md:gap-0 md:flex-row">
+      <div
+        class="flex flex-col justify-between gap-[34px] md:flex-row md:gap-0"
+      >
         <p class="text-neutral">© Copyright Beautify 2023</p>
-        <a href="#" class="inline-flex gap-2 group transition-all duration-500 text-neutral hover:text-white">Kembali ke atas <i class="transition-all duration-500 translate-y-0 group-hover:-translate-y-[25%] group-hover:text-white"
-          ><svg
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            class="fill-none stroke-current -rotate-90"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M14.43 5.93005L20.5 12.0001L14.43 18.0701"
-              stroke-width="1.5"
-              stroke-miterlimit="10"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-            <path
-              d="M3.5 12H20.33"
-              stroke-width="1.5"
-              stroke-miterlimit="10"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-          </svg> </i
-      ></a>
+        <a
+          href="#"
+          class="group inline-flex gap-2 text-neutral transition-all duration-500 hover:text-white"
+          >Kembali ke atas
+          <i
+            class="translate-y-0 transition-all duration-500 group-hover:-translate-y-[25%] group-hover:text-white"
+            ><svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              class="-rotate-90 fill-none stroke-current"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M14.43 5.93005L20.5 12.0001L14.43 18.0701"
+                stroke-width="1.5"
+                stroke-miterlimit="10"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M3.5 12H20.33"
+                stroke-width="1.5"
+                stroke-miterlimit="10"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg> </i
+        ></a>
       </div>
     </footer>
 
     <script src="dist/js/navbar.js"></script>
     <script src="dist/js/animate-number.js"></script>
+    <script src="dist/js/slider.js"></script>
   </body>
 </html>
