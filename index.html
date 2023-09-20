@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/dist/styles.css" />
     <script defer src="/dist/js/aos.js"></script>
   </head>
-  <body class="mx-auto max-w-[1440px] overflow-x-hidden">
+  <body>
     <nav
       class="navbar fixed left-0 top-0 z-[999] flex w-full items-center justify-between bg-white px-5 py-5 md:px-[62px] lg:px-[152px]"
     >
@@ -109,7 +109,7 @@
 
     <section
       id="beranda"
-      class="aos slide mx-auto w-full px-5 pb-[54px] pt-[124px] sm:pb-[82px] sm:pt-[152px] md:px-[62px] lg:px-[152px]"
+      class="aos slide mx-auto w-full max-w-[1440px] px-5 pb-[54px] pt-[124px] sm:pb-[82px] sm:pt-[152px] md:px-[62px] lg:px-[152px]"
     >
       <div
         class="flex w-full flex-col items-center justify-between gap-[60px] md:flex-row"
@@ -775,7 +775,7 @@
 
     <section
       id="tentang-kami"
-      class="aos slide mx-auto w-full px-5 pb-[64px] pt-[124px] sm:pb-[82px] sm:pt-[184px] md:px-[62px] lg:px-[152px]"
+      class="aos slide mx-auto w-full max-w-[1440px] px-5 pb-[64px] pt-[124px] sm:pb-[82px] sm:pt-[184px] md:px-[62px] lg:px-[152px]"
     >
       <div class="block">
         <div class="mb-12">
@@ -834,7 +834,7 @@
 
     <section
       id="layanan"
-      class="aos slide mx-auto w-full px-5 py-[54px] sm:pb-[82px] sm:pt-[184px] md:px-[62px] lg:px-[152px]"
+      class="aos slide mx-auto w-full max-w-[1440px] px-5 py-[54px] sm:pb-[82px] sm:pt-[184px] md:px-[62px] lg:px-[152px]"
     >
       <div class="relative flex flex-col justify-between lg:flex-row">
         <div
@@ -905,7 +905,7 @@
 
     <section
       id="katalog"
-      class="aos slide mx-auto w-full px-5 pb-[64px] pt-[124px] sm:pb-[82px] sm:pt-[184px] md:px-[62px] lg:px-[152px]"
+      class="aos slide mx-auto w-full max-w-[1440px] px-5 pb-[64px] pt-[124px] sm:pb-[82px] sm:pt-[184px] md:px-[62px] lg:px-[152px]"
     >
       <div class="mb-[52px] w-full">
         <h2 class="mb-[10px] text-2xl sm:text-[32px] lg:text-5xl">
@@ -915,10 +915,11 @@
       </div>
       <div class="w-full">
         <div
-          class="mb-[54px] flex h-[320px] flex-col justify-between sm:h-[487px] sm:flex-row"
-          id="katalog-1"
+          class="mb-8 flex h-[672px] flex-col justify-between md:mb-[54px] md:h-[487px] md:flex-row"
         >
-          <div class="relative h-full w-full text-center text-white md:w-[48%] lg:w-[40%]">
+          <div
+            class="relative mb-8 h-full w-full text-center text-white md:mb-0 md:w-[48%] lg:w-[40%]"
+          >
             <img
               src="/dist/img/catalogues/skin-care/0.jpg"
               alt="Skin Care"
@@ -978,11 +979,10 @@
           </div>
         </div>
         <div
-          class="slide mb-[54px] flex h-[320px] flex-col justify-between sm:h-[487px] sm:flex-row"
-          id="katalog-2"
+          class="slide mb-[54px] flex h-[672px] flex-col justify-between md:h-[487px] md:flex-row"
         >
           <div
-            class="relative h-full w-full text-center text-white md:w-[48%] lg:w-[55%]"
+            class="relative mb-8 h-full w-full text-center text-white md:mb-0 md:w-[48%] lg:w-[55%]"
           >
             <img
               src="/dist/img/catalogues/face-care/0.jpg"
@@ -1002,7 +1002,9 @@
               class="animate-catalogue fade delay-10 absolute left-0 top-0 h-full w-full object-cover"
             />
           </div>
-          <div class="relative h-full w-full text-center text-white md:w-[48%] lg:w-[40%]">
+          <div
+            class="relative h-full w-full text-center text-white md:w-[48%] lg:w-[40%]"
+          >
             <img
               src="/dist/img/catalogues/hair-care/0.jpg"
               alt="Hair Care"
@@ -1025,6 +1027,97 @@
         <div class="flex justify-between"></div>
       </div>
     </section>
+
+    <footer
+      id="footer"
+      class="mt-[82px] w-screen bg-primary px-5 md:px-[62px] lg:px-[154px] pb-[36px] pt-[68px] text-white selection:bg-white selection:text-primary sm:mt-[184px]"
+    >
+      <div class="flex justify-between flex-col lg:flex-row pb-9 border-b border-b-white mb-9">
+        <div class="w-full mb-[98px] lg:mb-0 lg:w-[35%]">
+          <h1 class="mb-7 lg:mb-[52px] text-2xl sm:text-[32px] lg:text-5xl">
+            Hubungi kami untuk kerja sama
+          </h1>
+          <a href="#" class="items-center gap-2 hover:gap-4 transition-all duration-500 inline-flex text-neutral hover:text-white"
+            >contact@beautify.com
+            <i
+              ><svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                class="fill-none stroke-current"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14.43 5.93005L20.5 12.0001L14.43 18.0701"
+                  stroke-width="1.5"
+                  stroke-miterlimit="10"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M3.5 12H20.33"
+                  stroke-width="1.5"
+                  stroke-miterlimit="10"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg> </i
+          ></a>
+        </div>
+        <div class="md:justify-between flex-col md:flex-row flex w-full lg:w-[60%] gap-[94px] lg:gap-[94px]">
+          <div class="w-full md:w-1/3">
+            <h4 class="mb-[34px] text-xl md:text-2xl">Alamat Kami</h4>
+            <p class="text-neutral">
+              Jalan Raya Salak Nomor 456, Kawasan Industri Maju, Kota
+              Surabaya, Indonesia 67890.
+            </p>
+          </div>
+          <div class="w-full md:w-1/3">
+            <h4 class="mb-[34px] text-xl md:text-2xl">Useful Links</h4>
+            <ul class="flex flex-col gap-[22px]">
+              <li><a href="#" class="text-neutral hover:text-white transition duration-500">Beautify</a></li>
+              <li><a href="#" class="text-neutral hover:text-white transition duration-500">Developer</a></li>
+              <li><a href="#" class="text-neutral hover:text-white transition duration-500">Konsultasi</a></li>
+            </ul>
+          </div>
+          <div class="w-full md:w-1/3">
+            <h4 class="mb-[34px] text-xl md:text-2xl">Ikuti Kami</h4>
+            <ul class="flex flex-col gap-[22px]">
+              <li><a href="https://instagram.com/" class="text-neutral hover:text-white transition duration-500 uppercase">Instagram</a></li>
+              <li><a href="https://facebook.com" class="text-neutral hover:text-white transition duration-500 uppercase">Facebook</a></li>
+              <li><a href="https://tiktok.com" class="text-neutral hover:text-white transition duration-500 uppercase">TikTok</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="flex justify-between gap-[34px] flex-col md:gap-0 md:flex-row">
+        <p class="text-neutral">© Copyright Beautify 2023</p>
+        <a href="#" class="inline-flex gap-2 group transition-all duration-500 text-neutral hover:text-white">Kembali ke atas <i class="transition-all duration-500 translate-y-0 group-hover:-translate-y-[25%] group-hover:text-white"
+          ><svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            class="fill-none stroke-current -rotate-90"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M14.43 5.93005L20.5 12.0001L14.43 18.0701"
+              stroke-width="1.5"
+              stroke-miterlimit="10"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M3.5 12H20.33"
+              stroke-width="1.5"
+              stroke-miterlimit="10"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg> </i
+      ></a>
+      </div>
+    </footer>
 
     <script src="dist/js/navbar.js"></script>
     <script src="dist/js/animate-number.js"></script>

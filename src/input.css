@@ -19,6 +19,18 @@
   background: #1f1f1f;
 }
 
+html, body {
+  @apply h-full;
+}
+
+html {
+  @apply table m-auto;
+}
+
+body {
+  @apply table-cell align-middle overflow-x-hidden;
+}
+
 h1,
 h2,
 h3,
